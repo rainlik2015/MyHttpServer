@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="cd758afe-b1d2-45c8-87f7-c34fdcf641dd" name="THINK@THINK-PC 2018-01-23 16:39:19" runUser="THINK-PC\THINK" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="本地" id="f1590671-a343-4f8d-9455-8498411bb496">
+    <Description>这些设置为本地测试运行的默认测试设置。</Description>
+    <Deployment enabled="false" runDeploymentRoot="THINK_THINK-PC 2018-01-23 16_39_19">
+      <DeploymentItem filename="D:\RealPro\Redis\redis4C#\ServiceStack.Redis-3\build\release\MonoDevelop\ServiceStack.Redis\ServiceStack.Common.dll" />
+      <DeploymentItem filename="D:\RealPro\Redis\redis4C#\ServiceStack.Redis-3\build\release\MonoDevelop\ServiceStack.Redis\ServiceStack.Interfaces.dll" />
+      <DeploymentItem filename="D:\RealPro\edu\自己动手写HTTP服务器\MyHttpServer\MyHttpServer\bin\Debug\MyHttpServer.dll" />
+      <DeploymentItem filename="D:\RealPro\Redis\redis4C#\ServiceStack.Redis-3\build\release\MonoDevelop\ServiceStack.Redis\ServiceStack.Redis.dll" />
+      <DeploymentItem filename="D:\RealPro\Redis\redis4C#\ServiceStack.Redis-3\build\release\MonoDevelop\ServiceStack.Redis\ServiceStack.Text.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2018-01-23T16:39:19.1475375+08:00" queuing="2018-01-23T16:39:20.9216389+08:00" start="2018-01-23T16:39:21.0516464+08:00" finish="2018-01-23T16:40:29.8525816+08:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="6" executed="6" passed="2" error="0" failed="3" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="THINK-PC" outcome="Error" timestamp="2018-01-23T16:40:29.8505814+08:00">
+        <Text>测试宿主进程意外退出。</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestMethod1" storage="d:\realpro\edu\自己动手写http服务器\myhttpserver\testproject\bin\debug\testproject.dll" id="09a83073-df37-6427-839e-dc4928ff2f10">
+      <Execution id="fd891f3b-6e88-4805-894f-fb5ff52552a6" />
+      <TestMethod codeBase="D:/RealPro/edu/自己动手写HTTP服务器/MyHttpServer/TestProject/bin/Debug/TestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject.ViewResultTest, TestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+    <UnitTest name="TestFileLog" storage="d:\realpro\edu\自己动手写http服务器\myhttpserver\testproject\bin\debug\testproject.dll" id="122c25ca-630f-fde1-e56d-bea6e967b470">
+      <Execution id="e06b7f1b-cbe6-4de1-91dd-282da5b888f5" />
+      <TestMethod codeBase="D:/RealPro/edu/自己动手写HTTP服务器/MyHttpServer/TestProject/bin/Debug/TestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject.LogTest, TestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestFileLog" />
+    </UnitTest>
+    <UnitTest name="TestAddCache" storage="d:\realpro\edu\自己动手写http服务器\myhttpserver\testproject\bin\debug\testproject.dll" id="c3bc63af-03b1-a00b-157d-bd644194e11e">
+      <Execution id="f31b7799-c60c-4e0a-95f2-9c55b0b5254a" />
+      <TestMethod codeBase="D:/RealPro/edu/自己动手写HTTP服务器/MyHttpServer/TestProject/bin/Debug/TestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject.CacheTest, TestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestAddCache" />
+    </UnitTest>
+    <UnitTest name="TestMethod1" storage="d:\realpro\edu\自己动手写http服务器\myhttpserver\testproject\bin\debug\testproject.dll" id="20158050-55a0-ebfa-4bb4-68f6a8e9bcb7">
+      <Execution id="d557d14f-ecab-4bd1-a981-8bdc7546f6b0" />
+      <TestMethod codeBase="D:/RealPro/edu/自己动手写HTTP服务器/MyHttpServer/TestProject/bin/Debug/TestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject.ListenerTest, TestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+    <UnitTest name="TestRedisAdd" storage="d:\realpro\edu\自己动手写http服务器\myhttpserver\testproject\bin\debug\testproject.dll" id="d9a29cb4-8366-3824-d283-ea597428e5b8">
+      <Execution id="71122bdc-39f7-4e25-b075-45a7769d09e8" />
+      <TestMethod codeBase="D:/RealPro/edu/自己动手写HTTP服务器/MyHttpServer/TestProject/bin/Debug/TestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject.RedisTest, TestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestRedisAdd" />
+    </UnitTest>
+    <UnitTest name="TestDelegateLog" storage="d:\realpro\edu\自己动手写http服务器\myhttpserver\testproject\bin\debug\testproject.dll" id="6d01605c-4f35-cbb8-d62b-e2208e3be504">
+      <Execution id="227f49cd-d96c-4a6b-9ea3-fab6f899d40a" />
+      <TestMethod codeBase="D:/RealPro/edu/自己动手写HTTP服务器/MyHttpServer/TestProject/bin/Debug/TestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject.LogTest, TestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestDelegateLog" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="列表中未列出的结果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="所有已加载的结果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="09a83073-df37-6427-839e-dc4928ff2f10" executionId="fd891f3b-6e88-4805-894f-fb5ff52552a6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c3bc63af-03b1-a00b-157d-bd644194e11e" executionId="f31b7799-c60c-4e0a-95f2-9c55b0b5254a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d9a29cb4-8366-3824-d283-ea597428e5b8" executionId="71122bdc-39f7-4e25-b075-45a7769d09e8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="122c25ca-630f-fde1-e56d-bea6e967b470" executionId="e06b7f1b-cbe6-4de1-91dd-282da5b888f5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6d01605c-4f35-cbb8-d62b-e2208e3be504" executionId="227f49cd-d96c-4a6b-9ea3-fab6f899d40a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="20158050-55a0-ebfa-4bb4-68f6a8e9bcb7" executionId="d557d14f-ecab-4bd1-a981-8bdc7546f6b0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="fd891f3b-6e88-4805-894f-fb5ff52552a6" testId="09a83073-df37-6427-839e-dc4928ff2f10" testName="TestMethod1" computerName="THINK-PC" duration="00:00:00.0285635" startTime="2018-01-23T16:39:21.1776536+08:00" endTime="2018-01-23T16:39:23.3277766+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fd891f3b-6e88-4805-894f-fb5ff52552a6">
+    </UnitTestResult>
+    <UnitTestResult executionId="f31b7799-c60c-4e0a-95f2-9c55b0b5254a" testId="c3bc63af-03b1-a00b-157d-bd644194e11e" testName="TestAddCache" computerName="THINK-PC" duration="00:00:00.2700016" startTime="2018-01-23T16:39:23.3377771+08:00" endTime="2018-01-23T16:39:23.6147930+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f31b7799-c60c-4e0a-95f2-9c55b0b5254a">
+      <Output>
+        <ErrorInfo>
+          <Message>测试方法 TestProject.CacheTest.TestAddCache 引发了异常: 
+System.IndexOutOfRangeException: 索引超出了数组界限。</Message>
+          <StackTrace>    在 MyHttpServer.Cache.LocalFileCache.GetCache(String requestUrl) 位置 D:\RealPro\edu\自己动手写HTTP服务器\MyHttpServer\MyHttpServer\Cache\LocalFileCache.cs:行号 117
+   在 MyHttpServer.Cache.LocalFileCache.DeleteCacheIfExists(String requestUrl) 位置 D:\RealPro\edu\自己动手写HTTP服务器\MyHttpServer\MyHttpServer\Cache\LocalFileCache.cs:行号 133
+   在 MyHttpServer.Cache.LocalFileCache.AddOrUpdateCache(String requestUrl, Stream httpBodyStream, DateTime lastModified, Int32 expireInSeconds) 位置 D:\RealPro\edu\自己动手写HTTP服务器\MyHttpServer\MyHttpServer\Cache\LocalFileCache.cs:行号 33
+   在 TestProject.CacheTest.TestAddCache() 位置 D:\RealPro\edu\自己动手写HTTP服务器\MyHttpServer\TestProject\CacheTest.cs:行号 74
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="71122bdc-39f7-4e25-b075-45a7769d09e8" testId="d9a29cb4-8366-3824-d283-ea597428e5b8" testName="TestRedisAdd" computerName="THINK-PC" duration="00:00:01.1946342" startTime="2018-01-23T16:39:23.6197933+08:00" endTime="2018-01-23T16:39:24.8488636+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="71122bdc-39f7-4e25-b075-45a7769d09e8">
+      <Output>
+        <ErrorInfo>
+          <Message>测试方法 TestProject.RedisTest.TestRedisAdd 引发了异常: 
+ServiceStack.Redis.RedisException: could not connect to redis Instance at localhost:6379 ---&gt; System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:6379</Message>
+          <StackTrace>    在 System.Net.Sockets.Socket.Connect(IPAddress[] addresses, Int32 port)
+   在 System.Net.Sockets.Socket.Connect(String host, Int32 port)
+   在 ServiceStack.Redis.RedisNativeClient.Connect()
+ --- 内部异常堆栈跟踪的末尾 ---
+    在 ServiceStack.Redis.RedisNativeClient.Connect()
+   在 ServiceStack.Redis.RedisNativeClient.AssertConnectedSocket()
+   在 ServiceStack.Redis.RedisNativeClient.SendCommand(Byte[][] cmdWithBinaryArgs)
+   在 ServiceStack.Redis.RedisNativeClient.SendExpectInt(Byte[][] cmdWithBinaryArgs)
+   在 ServiceStack.Redis.RedisNativeClient.Exists(String key)
+   在 MyHttpServer.Cache.RedisCache.AddOrUpdateCache(String requestUrl, Stream httpBodyStream, DateTime lastModified, Int32 expireInSeconds) 位置 D:\RealPro\edu\自己动手写HTTP服务器\MyHttpServer\MyHttpServer\Cache\RedisCache.cs:行号 35
+   在 TestProject.RedisTest.TestRedisAdd() 位置 D:\RealPro\edu\自己动手写HTTP服务器\MyHttpServer\TestProject\RedisTest.cs:行号 73
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e06b7f1b-cbe6-4de1-91dd-282da5b888f5" testId="122c25ca-630f-fde1-e56d-bea6e967b470" testName="TestFileLog" computerName="THINK-PC" duration="00:00:00.0040091" startTime="2018-01-23T16:39:24.8668646+08:00" endTime="2018-01-23T16:39:24.8778652+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e06b7f1b-cbe6-4de1-91dd-282da5b888f5">
+    </UnitTestResult>
+    <UnitTestResult executionId="227f49cd-d96c-4a6b-9ea3-fab6f899d40a" testId="6d01605c-4f35-cbb8-d62b-e2208e3be504" testName="TestDelegateLog" computerName="THINK-PC" duration="00:00:00.0841361" startTime="2018-01-23T16:39:24.8898659+08:00" endTime="2018-01-23T16:39:24.9828712+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="227f49cd-d96c-4a6b-9ea3-fab6f899d40a">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual 失败。应为: &lt;【2018-01-23 16:39:24】This is an error!&gt;，实际为: &lt;This is an error!&gt;。</Message>
+          <StackTrace>   在 TestProject.LogTest.&lt;TestDelegateLog&gt;b__0(String arg) 位置 D:\RealPro\edu\自己动手写HTTP服务器\MyHttpServer\TestProject\LogTest.cs:行号 31
+   在 MyHttpServer.Log.DelegateLog.InternalDoLog(String str) 位置 D:\RealPro\edu\自己动手写HTTP服务器\MyHttpServer\MyHttpServer\Log\DelegateLog.cs:行号 19
+   在 MyHttpServer.Log.BaseLog.DoLog(String str, LOGLEVEL level) 位置 D:\RealPro\edu\自己动手写HTTP服务器\MyHttpServer\MyHttpServer\Log\BaseLog.cs:行号 22
+   在 MyHttpServer.Log.BaseLog.Error(String str) 位置 D:\RealPro\edu\自己动手写HTTP服务器\MyHttpServer\MyHttpServer\Log\BaseLog.cs:行号 41
+   在 TestProject.LogTest.TestDelegateLog() 位置 D:\RealPro\edu\自己动手写HTTP服务器\MyHttpServer\TestProject\LogTest.cs:行号 33
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d557d14f-ecab-4bd1-a981-8bdc7546f6b0" testId="20158050-55a0-ebfa-4bb4-68f6a8e9bcb7" testName="TestMethod1" computerName="THINK-PC" duration="00:01:04.8637100" startTime="2018-01-23T16:39:24.9888716+08:00" endTime="2018-01-23T16:40:29.8525816+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d557d14f-ecab-4bd1-a981-8bdc7546f6b0">
+    </UnitTestResult>
+  </Results>
+</TestRun>

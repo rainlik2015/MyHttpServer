@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{411E6F83-5332-462E-8DB1-276A0772799C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MyHttpServer</RootNamespace>
+    <AssemblyName>MyHttpServer</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ServiceStack.Common">
+      <HintPath>..\..\..\..\Redis\redis4C#\ServiceStack.Redis-3\build\release\MonoDevelop\ServiceStack.Redis\ServiceStack.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.Interfaces">
+      <HintPath>..\..\..\..\Redis\redis4C#\ServiceStack.Redis-3\build\release\MonoDevelop\ServiceStack.Redis\ServiceStack.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.Redis">
+      <HintPath>..\..\..\..\Redis\redis4C#\ServiceStack.Redis-3\build\release\MonoDevelop\ServiceStack.Redis\ServiceStack.Redis.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.Text">
+      <HintPath>..\..\..\..\Redis\redis4C#\ServiceStack.Redis-3\build\release\MonoDevelop\ServiceStack.Redis\ServiceStack.Text.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Web.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ActionResults\ActionResult.cs" />
+    <Compile Include="ActionResults\ContentResult.cs" />
+    <Compile Include="ActionResults\FileResult.cs" />
+    <Compile Include="ActionResults\HttpStatusCodeResult.cs" />
+    <Compile Include="ActionResults\ViewResult.cs" />
+    <Compile Include="Cache\CacheData.cs" />
+    <Compile Include="Cache\ICache.cs" />
+    <Compile Include="Cache\LocalFileCache.cs" />
+    <Compile Include="Cache\RedisCache.cs" />
+    <Compile Include="Common\Compiler.cs" />
+    <Compile Include="Common\Gzip.cs" />
+    <Compile Include="Common\ServerConfig.cs" />
+    <Compile Include="Ext\AssemblyExt.cs" />
+    <Compile Include="Ext\DateTimeExt.cs" />
+    <Compile Include="Ext\HttpListenerRequestExt.cs" />
+    <Compile Include="Ext\SocketExt.cs" />
+    <Compile Include="Ext\StreamExt.cs" />
+    <Compile Include="Listener\BuildInHttpListener.cs" />
+    <Compile Include="Listener\IListener.cs" />
+    <Compile Include="MyHttpRequest.cs" />
+    <Compile Include="MyHttpResponse.cs" />
+    <Compile Include="Listener\SocketListener.cs" />
+    <Compile Include="MyListenerContext.cs" />
+    <Compile Include="SocketStream.cs" />
+    <Compile Include="Log\ConsoleLog.cs" />
+    <Compile Include="Log\DelegateLog.cs" />
+    <Compile Include="Log\FileLog.cs" />
+    <Compile Include="Log\BaseLog.cs" />
+    <Compile Include="Log\LOGLEVEL.cs" />
+    <Compile Include="ModelBinder\BodyModelBinder.cs" />
+    <Compile Include="Mvc\Controller.cs" />
+    <Compile Include="Ext\StringExt.cs" />
+    <Compile Include="ModelBinder\BaseModelBinder.cs" />
+    <Compile Include="RouteData.cs" />
+    <Compile Include="ModelBinder\UrlModelBinder.cs" />
+    <Compile Include="StringDictionary.cs" />
+    <Compile Include="Common\UrlRouteConfig.cs" />
+    <Compile Include="UrlHandler\AspnetHandler.cs" />
+    <Compile Include="UrlHandler\PhpHandler.cs" />
+    <Compile Include="ViewEngine\TemplateEngine.cs" />
+    <Compile Include="Mvc\MvcContext.cs" />
+    <Compile Include="UrlHandler\StaticHandler.cs" />
+    <Compile Include="HttpServer.cs" />
+    <Compile Include="UrlHandler\BaseUrlHandler.cs" />
+    <Compile Include="UrlHandler\MyMvcHandler.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UrlHandler\HandlerChain.cs" />
+    <Compile Include="ViewEngine\Engines.cs" />
+    <Compile Include="Mvc\ViewPage.cs" />
+    <Compile Include="ViewEngine\MyRazorEngine.cs" />
+    <Compile Include="WebSiteConfig.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="PhpCgi\php.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="PhpCgi\php5.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

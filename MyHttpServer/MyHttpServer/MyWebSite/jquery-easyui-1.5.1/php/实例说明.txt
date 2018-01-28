@@ -1,0 +1,45 @@
+修改PHP扩展名
+
+Apache安装文件夹下的conf文件夹，找到“httpd.conf”文件
+
+锁定如下内容：
+
+<IfModule dir_module>
+    DirectoryIndex index.php index.asp index.html index.htm
+</IfModule>
+
+
+<IfModule mod_php5.c>
+	#指定PHP文件的扩展名
+	AddType application/x-httpd-php .asp .jsp .net
+	#AddType application/x-httpd-php .php
+	#AddType application/x-httpd-php .php3
+	#AddType application/x-httpd-php-source .phps
+</IfModule>
+
+
+(1)启动该项
+
+LoadModule rewrite_module modules/mod_rewrite.so
+
+
+(2)将AllowOverride中的None改为All
+<Directory "F:/AppServ/www/cgi-bin">
+    AllowOverride All
+    Options None
+    Order allow,deny
+    Allow from all
+</Directory>
+(3)
+编写.htaccess文件
+
+RewriteEngine on   #启动项
+
+#实现对文件后缀的匹配
+
+RewriteRule ^index\.html$ index.php [L] 
+
+
+RewriteRule ^famousword-([0-9]+)-([a-z]+)\.html$ famousword.php?page=$1&flag=$2 [L]
+RewriteRule ^famouswordinfo-([0-9]+)\.html$ famouswordinfo.php?wordid=$1 [L]
+RewriteRule ^maindowncenter-(.*)\.html$ maindowncenter.php?a=$1 [L]

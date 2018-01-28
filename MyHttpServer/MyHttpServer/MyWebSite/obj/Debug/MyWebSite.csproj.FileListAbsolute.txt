@@ -1,0 +1,13 @@
+D:\RealPro\edu\自己动手写HTTP服务器\MyHttpServer\MyWebSite\bin\Debug\PhpCgi\php.exe
+D:\RealPro\edu\自己动手写HTTP服务器\MyHttpServer\MyWebSite\bin\Debug\PhpCgi\php5.dll
+D:\RealPro\edu\自己动手写HTTP服务器\MyHttpServer\MyWebSite\bin\Debug\MyWebSite.dll
+D:\RealPro\edu\自己动手写HTTP服务器\MyHttpServer\MyWebSite\bin\Debug\MyWebSite.pdb
+D:\RealPro\edu\自己动手写HTTP服务器\MyHttpServer\MyWebSite\bin\Debug\MyHttpServer.dll
+D:\RealPro\edu\自己动手写HTTP服务器\MyHttpServer\MyWebSite\bin\Debug\ServiceStack.Redis.dll
+D:\RealPro\edu\自己动手写HTTP服务器\MyHttpServer\MyWebSite\bin\Debug\ServiceStack.Interfaces.dll
+D:\RealPro\edu\自己动手写HTTP服务器\MyHttpServer\MyWebSite\bin\Debug\ServiceStack.Text.dll
+D:\RealPro\edu\自己动手写HTTP服务器\MyHttpServer\MyWebSite\bin\Debug\ServiceStack.Common.dll
+D:\RealPro\edu\自己动手写HTTP服务器\MyHttpServer\MyWebSite\bin\Debug\MyHttpServer.pdb
+D:\RealPro\edu\自己动手写HTTP服务器\MyHttpServer\MyWebSite\obj\Debug\MyWebSite.csprojResolveAssemblyReference.cache
+D:\RealPro\edu\自己动手写HTTP服务器\MyHttpServer\MyWebSite\obj\Debug\MyWebSite.dll
+D:\RealPro\edu\自己动手写HTTP服务器\MyHttpServer\MyWebSite\obj\Debug\MyWebSite.pdb

@@ -1,0 +1,4 @@
+D:\RealPro\edu\自己动手写HTTP服务器\MyHttpServer\MyHttpClient\bin\Debug\MyHttpClient.exe
+D:\RealPro\edu\自己动手写HTTP服务器\MyHttpServer\MyHttpClient\bin\Debug\MyHttpClient.pdb
+D:\RealPro\edu\自己动手写HTTP服务器\MyHttpServer\MyHttpClient\obj\x86\Debug\MyHttpClient.exe
+D:\RealPro\edu\自己动手写HTTP服务器\MyHttpServer\MyHttpClient\obj\x86\Debug\MyHttpClient.pdb

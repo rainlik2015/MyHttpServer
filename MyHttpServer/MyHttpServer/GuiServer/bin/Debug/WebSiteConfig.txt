@@ -1,0 +1,3 @@
+﻿HtmlSite@8882@D:\RealPro\edu\自己动手写HTTP服务器\MyHttpServer\MyWebSite\jquery-easyui-1.5.1
+MyWebSite@8880@D:\RealPro\edu\自己动手写HTTP服务器\MyHttpServer\MyWebSite\bin\Debug
+PhpSite@8881@D:\500G\教程\php\PHP\学通PHP24堂课\mr

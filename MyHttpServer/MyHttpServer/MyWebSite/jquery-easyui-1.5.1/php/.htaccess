@@ -1,0 +1,11 @@
+RewriteEngine on   #启动项
+
+#实现对文件后缀的匹配
+
+RewriteRule ^index\.shtml$ index.php [L] 
+RewriteRule ^index_ok\.shtml$ index_ok.php [L] 
+RewriteRule ^test-([0-9]+)-([a-z]+)\.shtml$ test.php?id=$m&name=$n [L] 
+
+#RewriteRule ^famousword-([0-9]+)-([a-z]+)\.html$ famousword.php?page=$1&flag=$2 [L]
+#RewriteRule ^famouswordinfo-([0-9]+)\.html$ famouswordinfo.php?wordid=$1 [L]
+#RewriteRule ^maindowncenter-(.*)\.html$ maindowncenter.php?a=$1 [L]
